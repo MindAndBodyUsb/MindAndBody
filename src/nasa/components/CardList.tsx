@@ -5,13 +5,13 @@ import { CardPicture } from './CardPicture'
 export const CardList=() => {
   const { data, page, prevPage, nextPage } = usePictures()
   return (
-    <div className='max-w-6xl mx-auto flex flex-col h-full'>
+    <div className='max-w-6xl mx-auto flex flex-col h-full px-9'>
       <div className='p-4 px-3'>
         <h1 className='text-black font-bold text-xl text-center lg:text-6xl'>
-          Watch the picture of the day!
+          Watch the NASA pictures from the picture of the day!
         </h1>
       </div>
-      <div className='mx-auto grid grid-cols-3 gap-2.5 flex-1 flex-grow'>
+      <div className='mx-auto grid grid-col-2 md:grid-cols-3 gap-2.5 flex-1 flex-grow my-2'>
         {
           data?.map( picture => (
             <CardPicture key={picture.url} data={ picture }/>
