@@ -38,7 +38,7 @@ export const RegisterPage=() => {
   }
   if ( isError ) {
     Swal.fire({
-      text: error?.response.data.message,
+      text: error?.response?.data?.message,
       color: '#000',
       confirmButtonText: 'Continue',
       icon: 'error',
