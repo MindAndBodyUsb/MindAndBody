@@ -8,5 +8,4 @@ import { RouterOutlet } from '@angular/router';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export default class HomePageComponent {
-
 }
