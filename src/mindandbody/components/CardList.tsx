@@ -1,11 +1,16 @@
 import { Picture } from '../interfaces/pictureInterface'
 import { CardPicture } from './CardPicture'
+import johan from '../../assets/johan.jpg'
+import sergio from '../../assets/sergio.jpg'
+import andres from '../../assets/andres.jpg'
+import kumar from '../../assets/kumar.jpeg'
+
 
 const data: Picture[] = [
-  { url: '/src/assets/johan.jpg', title: 'Johan Garzón', description: 'CEO, Web Developer' },
-  { url: '/src/assets/sergio.jpg', title: 'Sergio Castro', description: 'DB Developer' },
-  { url: '/src/assets/andres.jpg', title: 'Andrés Marino', description: 'Web Designer' },
-  { url: '/src/assets/kumar.jpeg', title: 'Andrés Marino', description: 'QA / Tester' },
+  { url: johan, title: 'Johan Garzón', description: 'CEO, Web Developer' },
+  { url: sergio, title: 'Sergio Castro', description: 'DB Developer' },
+  { url: andres, title: 'Andrés Marino', description: 'Web Designer' },
+  { url: kumar, title: 'Andrés Marino', description: 'QA / Tester' },
 ]
 
 export const CardList=() => {

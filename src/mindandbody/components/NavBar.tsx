@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { Link } from 'react-router'
 import { useAuthStore } from '../../store/authStore'
+import mab from '../../assets/mab.png'
+
 
 
 
@@ -18,7 +20,7 @@ export const Navbar=() => {
     <nav className="flex dark:bg-black items-center fixed z-20 justify-between bg-white px-5 py-6 w-full h-14">
       <div>
         <Link to={'/'} className='text-white font-bold cursor-pointer flex justify-content items-center gap-3'>
-          <img className='h-[34px]' src="/src/assets/mab.png" alt="mindandbody" />
+          <img className='h-[34px]' src={mab} alt="mindandbody" />
           MindAndBody
         </Link>
       </div>
