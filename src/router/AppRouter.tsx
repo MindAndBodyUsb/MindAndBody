@@ -14,12 +14,12 @@ export const AppRouter = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<MindAndBodyLayout />} >
+        <Route path='/MindAndBody/' element={<MindAndBodyLayout />} >
           <Route index element={ <MainPage /> }/>
         </Route>
 
         <Route
-          path='/auth'
+          path='/MindAndBody/auth'
           element={
             <Suspense
               fallback={
@@ -32,7 +32,7 @@ export const AppRouter = () => {
             </Suspense>
           }>
             <Route index element={ <LoginPage /> }/>
-            <Route path='/auth/register' element={ <RegisterPage /> }/>
+            <Route path='/MindAndBody/auth/register' element={ <RegisterPage /> }/>
         </Route>
         {/* <Route path='/MindAndBody' element={ <Navigate to={'/'}/> }/> */}
       </Routes>
