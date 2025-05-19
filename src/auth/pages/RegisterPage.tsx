@@ -118,7 +118,7 @@ export const RegisterPage=() => {
             >{ isPending ? 'Loading...' : 'Register New Account' }</button>
             <div className="text-center text-sm">
               Already have an account?{" "}
-              <Link to='/auth' className="underline underline-offset-4">
+              <Link to='/MindAndBody/auth' className="underline underline-offset-4">
                 Login
               </Link>
             </div>

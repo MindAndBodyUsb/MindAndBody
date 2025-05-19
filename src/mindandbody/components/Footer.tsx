@@ -17,7 +17,7 @@ export const Footer=() => {
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
           <li>
-            <a href="https://github.com/JohanGarzonF/react-test" target='_blank' className="flex items-center gap-1 me-4 md:me-6">
+            <a href="https://github.com/MindAndBodyUsb/MindAndBody" target='_blank' className="flex items-center gap-1 me-4 md:me-6">
               <i className="fa-brands fa-github text-xl"></i>
               Repository
             </a>

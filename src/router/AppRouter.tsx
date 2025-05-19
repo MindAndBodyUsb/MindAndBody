@@ -34,7 +34,6 @@ export const AppRouter = () => {
             <Route index element={ <LoginPage /> }/>
             <Route path='/MindAndBody/auth/register' element={ <RegisterPage /> }/>
         </Route>
-        {/* <Route path='/MindAndBody' element={ <Navigate to={'/'}/> }/> */}
       </Routes>
     </BrowserRouter>
   )

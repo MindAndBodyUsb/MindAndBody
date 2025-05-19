@@ -9,7 +9,7 @@ export const HeroComponent=() => {
   const navigate = useNavigate()
 
   const onGetStartedNavigate=() => {
-    navigate('/auth/register')
+    navigate('/MindAndBody/auth/register')
   }
 
   return (

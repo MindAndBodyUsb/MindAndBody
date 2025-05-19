@@ -34,7 +34,7 @@ export const Navbar=() => {
                 </button>
               )
               :(
-                <Link to={'/auth'} className='text-white cursor-pointer'>Login</Link>
+                <Link to={'/MindAndBody/auth'} className='text-white cursor-pointer'>Login</Link>
               )
           }
           {
@@ -42,17 +42,17 @@ export const Navbar=() => {
               <div className="drop-down w-48 overflow-hidden bg-white rounded-md shadow absolute top-14 right-3">
                 <ul>
                   <li className="hover:bg-slate-400">
-                    <Link to={'/'} className='px-3 py-3 text-sm font-medium flex items-center space-x-2'>
+                    <Link to={'/MindAndBody/'} className='px-3 py-3 text-sm font-medium flex items-center space-x-2'>
                       <i className="fa-solid fa-house text-xl"></i>
                       <span> Home </span>
                     </Link>
                   </li>
-                  <li className="hover:bg-slate-400">
-                    <Link to={'/profile'} className='px-3 py-3 text-sm font-medium flex items-center space-x-2'>
+                  {/* <li className="hover:bg-slate-400">
+                    <Link to={'/MindAndBody/profile'} className='px-3 py-3 text-sm font-medium flex items-center space-x-2'>
                       <i className="fa-solid fa-user text-xl"></i>
                       <span> Profile </span>
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="hover:bg-slate-400">
                     <button onClick={ onCloseSession } className='px-3 py-3 text-sm font-medium flex items-center space-x-2'>
                       <i className="fa-solid fa-right-from-bracket text-xl"></i>
