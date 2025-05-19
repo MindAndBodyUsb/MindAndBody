@@ -63,7 +63,7 @@ export const LoginPage=() => {
           <form onSubmit={ handleSubmit( onSubmit ) } className="flex flex-col gap-2 p-6">
             <div className="flex flex-col items-center text-center">
               <h1 className="text-2xl font-bold">Welcome Back!</h1>
-              <p className="text-balance text-gray-500">Enter to your Nasa Image Test account</p>
+              <p className="text-balance text-gray-500">Enter to your MindAndBody account</p>
             </div>
             <div className="mb-5">
               <label
@@ -80,7 +80,7 @@ export const LoginPage=() => {
                 placeholder="name@flowbite.com"
                 { ...register( 'email' ) }
               />
-              { 
+              {
                 errors.email?.message && (
                   <span className='text-red-500 text-sm font-bold'>{ errors.email?.message }</span>
                 )

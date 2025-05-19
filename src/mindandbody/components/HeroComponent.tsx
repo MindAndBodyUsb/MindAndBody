@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router'
-import photo from '../../assets/landingwebp.webp'
+import photo from '../../assets/hero.png'
 import { useAuthStore } from '../../store/authStore'
 
 export const HeroComponent=() => {
@@ -27,10 +27,14 @@ export const HeroComponent=() => {
       }}></div>
       <div className="text-neutral-content text-white z-10 p-10">
         <div className="max-w-2xl">
-          <h1 className="mb-5 text-7xl font-bold">NASA Test Images</h1>
-          <p className="mb-5 text-2xl w-full">
-            NASA has always told its story through its images, a few of which have become icons of human history.
-          </p>
+          <h1 className="mb-5 text-7xl font-boldf flex items-center gap-3">
+            <img className='h-24' src="src/assets/mab.png" alt="mindandbody" />
+            MindAndBody
+          </h1>
+          <h3 className="mb-2 text-2xl w-full">
+            The Gateway to Health For Your Mind and Body
+          </h3>
+          <p className='mb-5'>Learn more about our project and about those of us who are looking to bring you physical and mental health.</p>
           {
             !login.success && (
               <button

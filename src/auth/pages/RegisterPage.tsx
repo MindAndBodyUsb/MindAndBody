@@ -59,7 +59,7 @@ export const RegisterPage=() => {
           <form onSubmit={ handleSubmit( onSubmit ) } className="flex flex-col gap-2 p-6">
             <div className="flex flex-col items-center text-center">
               <h1 className="text-2xl font-bold">Welcome!</h1>
-              <p className="text-balance text-gray-500">Register to Nasa Test</p>
+              <p className="text-balance text-gray-500">Register to MindAndBody</p>
             </div>
             <div className="mb-5">
               <label
