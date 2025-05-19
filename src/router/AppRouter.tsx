@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router'
 
 import { lazy, Suspense } from 'react'
 import { MainPage } from '../mindandbody/pages/MainPage'
@@ -34,6 +34,7 @@ export const AppRouter = () => {
             <Route index element={ <LoginPage /> }/>
             <Route path='/auth/register' element={ <RegisterPage /> }/>
         </Route>
+        {/* <Route path='/MindAndBody' element={ <Navigate to={'/'}/> }/> */}
       </Routes>
     </BrowserRouter>
   )
