@@ -4,7 +4,6 @@ import { lazy, Suspense } from 'react'
 import { MainPage } from '../mindandbody/pages/MainPage'
 import { LoginPage } from '../auth/pages/LoginPage'
 import { RegisterPage } from '../auth/pages/RegisterPage'
-import { useAuthStore } from '../store/authStore'
 import { MindAndBodyLayout } from '../mindandbody/layout/MindAndBodyLayout'
 
 const AuthLayout = lazy(() => {
@@ -12,7 +11,6 @@ const AuthLayout = lazy(() => {
 })
 
 export const AppRouter = () => {
-  const login = useAuthStore(state => state.login)
   return (
     <BrowserRouter>
       <Routes>
