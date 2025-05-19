@@ -18,7 +18,7 @@ export const Navbar=() => {
     <nav className="flex dark:bg-black items-center fixed z-20 justify-between bg-white px-5 py-6 w-full h-14">
       <div>
         <Link to={'/'} className='text-white font-bold cursor-pointer flex justify-content items-center gap-3'>
-          <img className='h-[34px]' src="MindAndBody/src/assets/mab.png" alt="mindandbody" />
+          <img className='h-[34px]' src="/src/assets/mab.png" alt="mindandbody" />
           MindAndBody
         </Link>
       </div>
