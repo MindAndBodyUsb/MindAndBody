@@ -28,7 +28,7 @@ export const HeroComponent=() => {
       <div className="text-neutral-content text-white z-10 p-10">
         <div className="max-w-2xl">
           <h1 className="mb-5 text-7xl font-boldf flex items-center gap-3">
-            <img className='h-24' src="src/assets/mab.png" alt="mindandbody" />
+            <img className='h-24' src="MindAndBody/src/assets/mab.png" alt="mindandbody" />
             MindAndBody
           </h1>
           <h3 className="mb-2 text-2xl w-full">
