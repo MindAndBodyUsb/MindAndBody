@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: 'https://mindandbodyusb.github.io/MindAndBody'
+  base: 'https://mindandbodyusb.github.io/MindAndBody/'
 })
